@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+walkdir = "2"
+blake3 = "1"
+rayon = "1"
+img_hash = "3"
+image = "0.25"
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+
