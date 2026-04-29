@@ -10,5 +10,6 @@ rayon = "1"
 img_hash = "3"
 image = "0.25"
 rusqlite = { version = "0.31", features = ["bundled"] }
+trash = "5"
 
 
