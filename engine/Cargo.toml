@@ -1,0 +1,10 @@
+[package]
+name = "engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2"
+blake3 = "1"
+rayon = "1"
+rusqlite = { version = "0.31", features = ["bundled"] }

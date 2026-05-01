@@ -1,3 +1,19 @@
+# Rust build output
 /target
-cachedb
+/engine/target
+/src-tauri/target
 
+# SQLite cache
+cachedb
+*.db
+
+# Tauri build output
+/src-tauri/gen
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
